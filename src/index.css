@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer base{
+  .topBar{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .lora-font{
+    font-family: 'Lora', serif;
+  }
+  .veralaRound-font{
+    font-family: 'Varela Round', sans-serif;
+  }
+}
