@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className='flex-[3] bg-primary-200 m-5 p-7 pb-[30px] rounded-xl flex flex-col items-center'>
+    <div className='sticky top-[50px] flex-[3] bg-primary-200 m-5 mt-0 p-7 pb-[30px] rounded-xl flex flex-col items-center'>
         <div className='flex flex-col items-center'>
             <span className='veralaRound-font text-xs text-primary-400 font-semibold leading-5 text-center uppercase m-[10px] p-[5px] w-[80%] border-y-[1px] border-primary-300'>About Me</span>
             <img className='w-10 h-10 mt-[15px] rounded-[50%] cursor-pointer object-cover' 
@@ -28,11 +28,11 @@ const Sidebar = () => {
         </div>
         <div className='flex flex-col items-center '>
             <span className='veralaRound-font text-xs text-primary-400 font-semibold leading-5 text-center uppercase m-[10px] p-[1px] w-[80%] border-y-[1px] border-primary-300'>follow us</span>
-            <div>
-                <i class="text-xl text-primary-100 cursor-pointer fa-brands fa-facebook"></i>
-                <i class="text-xl text-primary-100 cursor-pointer fa-brands  fa-x-twitter"></i>
-                <i class="text-xl text-primary-100 cursor-pointer fa-brands  fa-pinterest"></i>
-                <i class="text-xl text-primary-100 cursor-pointer fa-brands  fa-square-instagram"></i>
+            <div className='flex items-center gap-4'>
+                <i className="text-base text-primary-100 cursor-pointer fa-brands fa-facebook"></i>
+                <i className="text-base text-primary-100 cursor-pointer fa-brands  fa-x-twitter"></i>
+                <i className="text-base text-primary-100 cursor-pointer fa-brands  fa-pinterest"></i>
+                <i className="text-base text-primary-100 cursor-pointer fa-brands  fa-square-instagram"></i>
             </div>
         </div>
     </div>

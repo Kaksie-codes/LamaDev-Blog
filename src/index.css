@@ -9,8 +9,8 @@
   box-sizing: border-box;
 }
 
-@layer base{
-  .topBar{
+@layer base{  
+  .josefin-font{
     font-family: 'Josefin Sans', sans-serif;
   }
   .lora-font{
@@ -18,5 +18,10 @@
   }
   .veralaRound-font{
     font-family: 'Varela Round', sans-serif;
+  }
+  .viewport-hieght{
+    height: calc(100vh - 50px);
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
   }
 }
